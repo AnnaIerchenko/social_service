@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className='p-4 flex items-center justify-between border-b lg:px-10'>
       {/* leftSide */}
-      <div className='flex items-center mr-4'>
+      <div className='flex items-center mr-2'>
         <div className='w-10 h-10'> 
           <Image src={facebook}/>
         </div>
@@ -36,7 +36,7 @@ const Header = () => {
         <GrGroup className='w-7 h-7'/>
       </div>
       {/* rightSide */}
-      <div className='flex items-center space-x-6 ml-4'>
+      <div className='flex items-center space-x-6 ml-0'>
         <div className='space-x-6 hidden md:flex'>
         <GrAppsRounded className='w-7 h-7'/>
         <FaBell className='w-7 h-7'/>
