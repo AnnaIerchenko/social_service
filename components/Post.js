@@ -57,7 +57,7 @@ const Post = () => {
       <div className='ml-[2px] w-4 h-4'>
         <Image src={hearth} />
       </div>
-      <p className='pl-2 whitespace-nowrap '>Emily Doe and another 21,372</p>
+      <p className='pl-2 whitespace-nowrap'>Emily Doe and another 21,372</p>
      </div>
      <p>372 Comments</p>
      </div>
